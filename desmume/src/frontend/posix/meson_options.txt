@@ -1,6 +1,6 @@
 option('openal',
   type: 'boolean',
-  value: false,
+  value: true,
   description: 'Enable experimental OpenAL microphone input',
 )
 option('frontend-gtk',
@@ -15,11 +15,11 @@ option('frontend-cli',
 )
 option('wifi',
   type: 'boolean',
-  value: false,
+  value: true,
   description: 'Enable wifi support',
 )
 option('gdb-stub',
   type: 'boolean',
-  value: false,
+  value: true,
   description: 'Enable gdb stub',
 )
