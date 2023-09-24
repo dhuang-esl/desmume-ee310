@@ -1,6 +1,6 @@
 option('openal',
   type: 'boolean',
-  value: true,
+  value: false,
   description: 'Enable experimental OpenAL microphone input',
 )
 option('frontend-gtk',
