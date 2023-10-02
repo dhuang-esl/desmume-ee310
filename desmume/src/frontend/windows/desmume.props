@@ -51,7 +51,7 @@
 	<!-- some default configurations per build configuration -->
 	<PropertyGroup>
 		<DEVELOPER Condition="'$(Configuration)' == 'Dev+'">true</DEVELOPER>
-		<GDB_STUB Condition="'$(Configuration)' == 'Dev+'">true</GDB_STUB>
+		<GDB_STUB Condition="'$(Configuration)' == 'Release'">true</GDB_STUB>
 	</PropertyGroup>
 
 	<!-- load user preferences -->
